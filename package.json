@@ -1,0 +1,76 @@
+{
+  "name": "plush",
+  "displayName": "Plush",
+  "description": "Language support for the Go Plush templating package. See https://github.com/gobuffalo/plush or https://godoc.org/github.com/gobuffalo/plush to learn more about the Plush templating package.",
+  "version": "0.0.1",
+  "publisher": "CJamesMay",
+  "readme": "README.md",
+  "author": {
+      "email": "cjm.wiki@gmail.com",
+      "name": "Cody James May",
+      "url": "https://github.com/thegoose51"
+  },
+  "bugs": {
+      "email": "cjm.wiki@gmail.com",
+      "url": "https://github.com/thegoose51/vsce-plush/issues"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://cjamesmay.visualstudio.com/Plush/_git/Plush"
+  },
+  "license": "MIT",
+  "keywords": ["plush", "golang", "template", "html-template", "gobuffalo", "buffalo"],
+  "icon": "images/logo.png",
+  "homepage": "https://github.com/thegoose51/vsce-plush",
+  "preview": true,
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "plush",
+        "aliases": [
+          "Plush",
+          "plush",
+          "Go-Plush",
+          "go-plush",
+          "Plush-HTML",
+          "plush-html"
+        ],
+        "extensions": [
+          ".html",
+          ".htm",
+          ".go-html",
+          ".plush-html",
+          ".plush"
+        ],
+        "mimetypes": [
+          "text/html",
+          "text/template",
+          "text/ng-template",
+          "application/xhtml+xml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "plush",
+        "scopeName": "text.html.plush",
+        "path": "./syntaxes/plush.tmLanguage.json",
+        "embeddedLanguages": {
+          "text.html": "html",
+          "source.css": "css",
+          "source.js": "javascript"
+        },
+        "tokenTypes": {
+          "meta.tag string.quoted": "other"
+        }
+      }
+    ]
+  }
+}

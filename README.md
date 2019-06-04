@@ -1,7 +1,5 @@
 # Plush Syntax
 
-![Logo](images/logo.png)
-
 Language support for the Go Plush templating package. See <https://github.com/gobuffalo/plush> or <https://godoc.org/github.com/gobuffalo/plush> to learn more about the Plush templating package.
 
 ## Features

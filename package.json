@@ -15,8 +15,7 @@
       "url": "https://github.com/thegoose51/vsce-plush/issues"
   },
   "repository": {
-      "type": "git",
-      "url": "https://cjamesmay.visualstudio.com/Plush/_git/Plush"
+      "url": "https://github.com/thegoose51/vsce-plush"
   },
   "license": "MIT",
   "keywords": ["plush", "golang", "template", "html-template", "gobuffalo", "buffalo"],

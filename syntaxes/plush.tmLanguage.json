@@ -84,7 +84,7 @@
         "keyword": {
             "patterns": [
                 {
-                    "match": "(?i)(function|let|if|else|return|for|in|fn|func)",
+                    "match": "(?c)(function|let|if|else|return|for|in|fn|func)\s+",
                     "name": "keyword.plush"
                 },
                 {

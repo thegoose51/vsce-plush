@@ -62,7 +62,7 @@
         "scopeName": "text.html.plush",
         "path": "./syntaxes/plush.tmLanguage.json",
         "embeddedLanguages": {
-          "text.html": "html",
+          "text.html meta.embedded.block.html meta.tag": "html",
           "source.css": "css",
           "source.js": "javascript"
         },
